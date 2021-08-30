@@ -49,7 +49,7 @@ const App = () => {
 
     return (
         <Fragment>
-            <ProgressBar />
+           
             <City current={weatherData} />
             <TodaysCard
                 main={weatherData.main}
